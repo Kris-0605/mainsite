@@ -34,28 +34,95 @@ h2 {
     display: inline;
 }
 
-@keyframes reveal {
+@keyframes reveal-white {
+    0% {
+        color: black;
+        background-color: black;
+    }
+
+    49.99% {
+        color: black;
+        background-color: black;
+    }
+
+    50% {
+        color: white;
+        background-color: white;
+    }
+
+    99.99% {
+        color: white;
+        background-color: white;
+    }
+
+    100% {
+        color: white;
+        background-color: black;
+    }
+}
+
+@keyframes reveal-magenta {
+    0% {
+        color: black;
+        background-color: black;
+    }
+
+    49.99% {
+        color: black;
+        background-color: black;
+    }
+
+    50% {
+        color: #f0f;
+        background-color: #f0f;
+    }
+
+    99.99% {
+        color: #f0f;
+        background-color: #f0f;
+    }
+
+    100% {
+        color: #f0f;
+        background-color: black;
+    }
+}
+
+@keyframes reveal-image {
     0% {
         opacity: 0%;
+        background-color: black;
+    }
+
+    49.99% {
+        opacity: 0%;
+        background-color: black;
+    }
+
+    50% {
+        opacity: 0%;
+        background-color: white;
     }
 
     99.99% {
         opacity: 0%;
+        background-color: white;
     }
 
     100% {
         opacity: 100%;
+        background-color: black;
     }
 }
 
 .typed span {
+    color: black;
     display: inline;
-    opacity: 0%;
 }
 
 .title span,
 .title2 span {
-    animation: reveal 0.04s forwards;
+    animation: reveal-white 0.08s forwards;
 }
 
 .title span:nth-child(1) {
@@ -122,28 +189,32 @@ h2 {
     display: inline;
     height: 2.375rem;
     opacity: 0%;
-    animation: reveal 0.04s forwards;
+    animation: reveal-image 0.08s forwards;
     animation-delay: 0.64s
 }
 
 .title2 span:nth-child(1) {
     animation-delay: 0.68s;
+    animation-name: reveal-magenta;
 }
 
 .title2 span:nth-child(2) {
     animation-delay: 0.72s;
+    animation-name: reveal-magenta;
 }
 
 .title2 span:nth-child(3) {
     animation-delay: 0.76s;
+    animation-name: reveal-magenta;
 }
 
 .title2 span:nth-child(4) {
     animation-delay: 0.8s;
+    animation-name: reveal-magenta;
 }
 
 .content span {
-    animation: reveal 0.02s forwards;
+    animation: reveal-white 0.04s forwards;
 }
 
 .content span:nth-child(1) {
