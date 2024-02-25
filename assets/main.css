@@ -88,6 +88,33 @@ h2 {
     }
 }
 
+@keyframes reveal-rls {
+    0% {
+        color: black;
+        background-color: black;
+    }
+
+    49.99% {
+        color: black;
+        background-color: black;
+    }
+
+    50% {
+        color: #C01E2E;
+        background-color: #C01E2E;
+    }
+
+    99.99% {
+        color: #C01E2E;
+        background-color: #C01E2E;
+    }
+
+    100% {
+        color: #C01E2E;
+        background-color: black;
+    }
+}
+
 @keyframes reveal-image {
     0% {
         opacity: 0%;
@@ -919,6 +946,107 @@ h2 {
 
 .content span:nth-child(176) {
     animation-delay: 3.52s;
+}
+
+.rls-logo picture img {
+    display: inline;
+    height: 1.5rem;
+    opacity: 0%;
+    animation: reveal-image 0.04s forwards;
+    animation-delay: 1.82s;
+}
+
+.rls a {
+    animation: reveal-rls 0.04s forwards;
+    color: black;
+}
+
+.rls a:nth-child(1) {
+    animation-delay: 1.84s;
+}
+
+.rls a:nth-child(2) {
+    animation-delay: 1.86s;
+}
+
+.rls a:nth-child(3) {
+    animation-delay: 1.88s;
+}
+
+.rls a:nth-child(4) {
+    animation-delay: 1.9s;
+}
+
+.rls a:nth-child(5) {
+    animation-delay: 1.92s;
+}
+
+.rls a:nth-child(6) {
+    animation-delay: 1.94s;
+}
+
+.rls a:nth-child(7) {
+    animation-delay: 1.96s;
+}
+
+.rls a:nth-child(8) {
+    animation-delay: 1.98s;
+}
+
+.rls a:nth-child(9) {
+    animation-delay: 2.0s;
+}
+
+.rls a:nth-child(10) {
+    animation-delay: 2.02s;
+}
+
+.rls a:nth-child(11) {
+    animation-delay: 2.04s;
+}
+
+.rls a:nth-child(12) {
+    animation-delay: 2.06s;
+}
+
+.rls a:nth-child(13) {
+    animation-delay: 2.08s;
+}
+
+.rls a:nth-child(14) {
+    animation-delay: 2.1s;
+}
+
+.rls a:nth-child(15) {
+    animation-delay: 2.12s;
+}
+
+.rls a:nth-child(16) {
+    animation-delay: 2.14s;
+}
+
+.rls a:nth-child(17) {
+    animation-delay: 2.16s;
+}
+
+.rls a:nth-child(18) {
+    animation-delay: 2.18s;
+}
+
+.rls a:nth-child(19) {
+    animation-delay: 2.2s;
+}
+
+.rls a:nth-child(20) {
+    animation-delay: 2.22s;
+}
+
+.rls a:nth-child(21) {
+    animation-delay: 2.24s;
+}
+
+.rls2 span {
+    animation: reveal-white 0.04s forwards 2.26s;
 }
 
 .magenta {
