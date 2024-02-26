@@ -950,7 +950,7 @@ h2 {
 
 .rls-logo picture img {
     display: inline;
-    height: 1.5rem;
+    height: 1.25rem;
     opacity: 0%;
     animation: reveal-image 0.04s forwards;
     animation-delay: 1.82s;
