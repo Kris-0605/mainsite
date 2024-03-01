@@ -34,6 +34,26 @@ h2 {
     display: inline;
 }
 
+.links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: inline;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.links svg,
+.links picture {
+    width: 1.5rem;
+}
+
+.link a {
+    color: black;
+}
+
 @keyframes reveal-white {
     0% {
         color: black;
@@ -142,13 +162,41 @@ h2 {
     }
 }
 
+@keyframes reveal-tetrio {
+    0% {
+        color: black;
+        background-color: black;
+    }
+
+    49.99% {
+        color: black;
+        background-color: black;
+    }
+
+    50% {
+        color: #DF4EAA;
+        background-color: #DF4EAA;
+    }
+
+    99.99% {
+        color: #DF4EAA;
+        background-color: #DF4EAA;
+    }
+
+    100% {
+        color: #DF4EAA;
+        background-color: black;
+    }
+}
+
 .typed span {
     color: black;
     display: inline;
 }
 
 .title span,
-.title2 span {
+.title2 span,
+.nothing-yet span {
     animation: reveal-white 0.08s forwards;
 }
 
@@ -210,6 +258,22 @@ h2 {
 
 .title span:nth-child(15) {
     animation-delay: 0.6s;
+}
+
+.title span:nth-child(16) {
+    animation-delay: 0.64s;
+}
+
+.title span:nth-child(17) {
+    animation-delay: 0.68s;
+}
+
+.title span:nth-child(18) {
+    animation-delay: 0.72s;
+}
+
+.title span:nth-child(19) {
+    animation-delay: 0.76s;
 }
 
 .title-image picture img {
@@ -948,6 +1012,134 @@ h2 {
     animation-delay: 3.52s;
 }
 
+.content span:nth-child(177) {
+    animation-delay: 3.54s;
+}
+
+.content span:nth-child(178) {
+    animation-delay: 3.56s;
+}
+
+.content span:nth-child(179) {
+    animation-delay: 3.58s;
+}
+
+.content span:nth-child(180) {
+    animation-delay: 3.6s;
+}
+
+.content span:nth-child(181) {
+    animation-delay: 3.62s;
+}
+
+.content span:nth-child(182) {
+    animation-delay: 3.64s;
+}
+
+.content span:nth-child(183) {
+    animation-delay: 3.66s;
+}
+
+.content span:nth-child(184) {
+    animation-delay: 3.68s;
+}
+
+.content span:nth-child(185) {
+    animation-delay: 3.7s;
+}
+
+.content span:nth-child(186) {
+    animation-delay: 3.72s;
+}
+
+.content span:nth-child(187) {
+    animation-delay: 3.74s;
+}
+
+.content span:nth-child(188) {
+    animation-delay: 3.76s;
+}
+
+.content span:nth-child(189) {
+    animation-delay: 3.78s;
+}
+
+.content span:nth-child(190) {
+    animation-delay: 3.8s;
+}
+
+.content span:nth-child(191) {
+    animation-delay: 3.82s;
+}
+
+.content span:nth-child(192) {
+    animation-delay: 3.84s;
+}
+
+.content span:nth-child(193) {
+    animation-delay: 3.86s;
+}
+
+.content span:nth-child(194) {
+    animation-delay: 3.88s;
+}
+
+.content span:nth-child(195) {
+    animation-delay: 3.9s;
+}
+
+.content span:nth-child(196) {
+    animation-delay: 3.92s;
+}
+
+.content span:nth-child(197) {
+    animation-delay: 3.94s;
+}
+
+.content span:nth-child(198) {
+    animation-delay: 3.96s;
+}
+
+.content span:nth-child(199) {
+    animation-delay: 3.98s;
+}
+
+.content span:nth-child(200) {
+    animation-delay: 4.0s;
+}
+
+.content span:nth-child(201) {
+    animation-delay: 4.02s;
+}
+
+.content span:nth-child(202) {
+    animation-delay: 4.04s;
+}
+
+.content span:nth-child(203) {
+    animation-delay: 4.06s;
+}
+
+.content span:nth-child(204) {
+    animation-delay: 4.08s;
+}
+
+.content span:nth-child(205) {
+    animation-delay: 4.1s;
+}
+
+.content span:nth-child(206) {
+    animation-delay: 4.12s;
+}
+
+.content span:nth-child(207) {
+    animation-delay: 4.14s;
+}
+
+.content span:nth-child(208) {
+    animation-delay: 4.16s;
+}
+
 .rls-logo picture img {
     display: inline;
     height: 1.25rem;
@@ -1049,6 +1241,171 @@ h2 {
     animation: reveal-white 0.04s forwards 2.26s;
 }
 
+.nothing-yet span:nth-child(1) {
+    animation-delay: 0.84s;
+}
+
+.nothing-yet span:nth-child(2) {
+    animation-delay: 0.88s;
+}
+
+.nothing-yet span:nth-child(3) {
+    animation-delay: 0.92s;
+}
+
+.nothing-yet span:nth-child(4) {
+    animation-delay: 0.96s;
+}
+
+.nothing-yet span:nth-child(5) {
+    animation-delay: 1.0s;
+}
+
+.nothing-yet span:nth-child(6) {
+    animation-delay: 1.04s;
+}
+
+.nothing-yet span:nth-child(7) {
+    animation-delay: 1.08s;
+}
+
+.nothing-yet span:nth-child(8) {
+    animation-delay: 1.12s;
+}
+
+.nothing-yet span:nth-child(9) {
+    animation-delay: 1.16s;
+}
+
+.nothing-yet span:nth-child(10) {
+    animation-delay: 1.2s;
+}
+
+.nothing-yet span:nth-child(11) {
+    animation-delay: 1.24s;
+}
+
+.nothing-yet span:nth-child(12) {
+    animation-delay: 1.28s;
+}
+
+.nothing-yet span:nth-child(13) {
+    animation-delay: 1.32s;
+}
+
+.nothing-yet span:nth-child(14) {
+    animation-delay: 1.36s;
+}
+
+.nothing-yet span:nth-child(15) {
+    animation-delay: 1.4s;
+}
+
+.nothing-yet span:nth-child(16) {
+    animation-delay: 1.44s;
+}
+
+.nothing-yet span:nth-child(17) {
+    animation-delay: 1.48s;
+}
+
+.links svg {
+    opacity: 0%;
+    animation: reveal-image 0.08s forwards;
+}
+
+#github-svg {
+    animation-delay: 0.52s;
+}
+
+#tetrio-svg {
+    animation-delay: 0.8s;
+}
+
+.github a {
+    animation: reveal-white 0.08s forwards;
+}
+
+.github a:nth-child(1) {
+    animation-delay: 0.56s;
+}
+
+.github a:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.github a:nth-child(3) {
+    animation-delay: 0.64s;
+}
+
+.github a:nth-child(4) {
+    animation-delay: 0.68s;
+}
+
+.github a:nth-child(5) {
+    animation-delay: 0.72s;
+}
+
+.github a:nth-child(6) {
+    animation-delay: 0.76s;
+}
+
+.tetrio a {
+    animation: reveal-tetrio 0.08s forwards;
+}
+
+.tetrio a:nth-child(1) {
+    animation-delay: 0.88s;
+}
+
+.tetrio a:nth-child(2) {
+    animation-delay: 0.92s;
+}
+
+.tetrio a:nth-child(3) {
+    animation-delay: 0.96s;
+}
+
+.tetrio a:nth-child(4) {
+    animation-delay: 1.0s;
+}
+
+.tetrio a:nth-child(5) {
+    animation-delay: 1.04s;
+}
+
+.tetrio a:nth-child(6) {
+    animation-delay: 1.08s;
+}
+
+.tetrio a:nth-child(7) {
+    animation-delay: 1.12s;
+}
+
+.tetrio a:nth-child(8) {
+    animation-delay: 1.16s;
+}
+
+.tetrio a:nth-child(9) {
+    animation-delay: 1.2s;
+}
+
+.tetrio a:nth-child(10) {
+    animation-delay: 1.24s;
+}
+
+.tetrio a:nth-child(11) {
+    animation-delay: 1.28s;
+}
+
+.tetrio a:nth-child(12) {
+    animation-delay: 1.32s;
+}
+
+.tetrio a:nth-child(13) {
+    animation-delay: 1.36s;
+}
+
 .magenta {
     color: #f0f
 }
@@ -1082,4 +1439,13 @@ h2 {
 
 #cursor2 {
     animation-delay: 3.84s;
+}
+
+#cursor3 {
+    animation-delay: 1.84s;
+    color: #DF4EAA;
+}
+
+#cursor4 {
+    animation-delay: 1.84s;
 }
